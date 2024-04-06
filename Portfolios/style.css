@@ -1,0 +1,13 @@
+*{
+    font-family: Poppins;
+}
+
+.nav-logo img{
+   display: inline; 
+}
+.nav-bar{
+    list-style-type: none;
+}
+.nav-list{
+    list-style-type: none;
+}
