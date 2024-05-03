@@ -1,48 +1,15 @@
-*{
-    font-family: Poppins;
-}
-
-.nav-bar{
- display: inline;
-}
-
-.menu{
- display: inline;
+nav{
+    display: flex;
+    justify-content: center;
+    
 }
 
 ul{
-    list-style-type: none;
-    display: inline;
-    
+    list-style: none;
+   
 }
 
 li{
-    display: inline;
-}
-
-.h4{
-    font-family: "Poppins", sans-serif;   
-}
-
-#home-button{
-    background: #8490ff;
-    line-height: 42px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border: none;
-    color: #fff;
-    display: inline-block;
-    font-weight: 500;
-    position: relative;
-   cursor: pointer;
-    
-}
-
-#home-button:hover{
-    background: #020414;
-    color: #8490ff;
-}
-
-.menu img {
-    
+   
+    float: left;
 }
