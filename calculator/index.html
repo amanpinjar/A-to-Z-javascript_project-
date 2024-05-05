@@ -3,43 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>calculator</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="calculator">
-      <input type="text" placeholder="0" id="inputBox" readonly />
-      <div>
-        <button class="operator ac">AC</button>
-        <button class="operator del">DEL</button>
-        <button class="operator">%</button>
-        <button class="operator">/</button>
+    
+    <div class="cal-container">
+      <h1>Calculator</h1>
+      <div id="display"></div>
+
+      <div class="cal-num-button">
+        <h5 onclick="appendValue(1)">1</h5>
+        <h5 onclick="appendValue(2)">2</h5>
+        <h5 onclick="appendValue(3)">3</h5>
+        <h5 onclick="appendValue(4)">4</h5>
+        <h5 onclick="appendValue(5)">5</h5>
+        <h5 onclick="appendValue(6)">6</h5>
+        <h5 onclick="appendValue(7)">7</h5>
+        <h5 onclick="appendValue(8)">8</h5>
+        <h5 onclick="appendValue(9)">9</h5>
+        <h5 onclick="appendValue(0)">0</h5>
       </div>
-      <div>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button class="operator">*</button>
-      </div>
-      <div>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button class="operator">-</button>
-      </div>
-      <div>
-        <button>3</button>
-        <button>2</button>
-        <button>1</button>
-        <button class="operator">+</button>
-      </div>
-      <div>
-        <button>00</button>
-        <button>0</button>
-        <button>.</button>
-        <button class="equalbtn">=</button>
+
+      <div class="cal-button">
+        <h5 onclick="appendValue('+')">+</h5>
+        <h5 onclick="appendValue('-')">-</h5>
+        <h5 onclick="appendValue('*')">*</h5>
+        <h5 onclick="appendValue('/')">/</h5>
+        <h5 onclick="calculate()">=</h5>
       </div>
     </div>
-    <script src="script.js"></script>
+
+    <script>
+      var value1 = "";
+      var displayTag = document.getElementById("display");
+
+      function appendValue(value) {
+        value1 = value1 + value;
+        displayTag.innerHTML = "<span>" + value1 + "</span>";
+      }
+
+      function calculate() {
+        var result = eval(value1);
+        displayTag.innerHTML = "<span>" + result + "</span>";
+        value1 = "";
+      }
+    </script>
   </body>
 </html>
