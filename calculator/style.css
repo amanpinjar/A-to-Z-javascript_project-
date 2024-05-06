@@ -55,7 +55,10 @@ h5 {
     border: solid black;
     border-radius: 10px;
 }
+.cal-button h5{
+    background-color: #d6cd18;
+}
 
 h5:hover {
-    background-color: #b317c8;
+    background-color: #d6cd18;
 }
