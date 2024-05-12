@@ -1,26 +1,69 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: goldenrod;
+  }
+
+
 .main{
+    background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 10px;
+    align-items: center; 
+    
     border: solid black;
-    border-radius: 30px;
+     width: 300px;
+    padding: 50px;
+    margin: 90px; 
 }
 .title{
     display: flex;
     justify-content: center;
-    
-    border-radius: 30px;
-    background-color: yellowgreen;
+    width: 100%;
 }
 
 .title h1{
+    display: flex;
+    text-align: center;
     font-family: "Micro 5 Charted", sans-serif;
-    font-size: 100px;
-    font-weight: 400;
-    font-style: normal;   
+    font-size: 90%;
+    font-weight: 700;
+    font-style: normal; 
+      
 }
 
 .main input{
     display: flex;
     justify-content: center;
-    width: 740px;
-    height: 40px;
-}
+    width: 290px;
+    height: 3cap;
+    border: none;
 
+}
+.main button{
+    border: none;
+}
+    .main .task{
+     background-color: greenyellow;
+     padding-: 0px  700px ,0px ,0px;
+    }
+
+    
+/* this is for canceling the completed task  */
+ 
+.completed {
+    text-decoration: line-through;
+    color: red;
+    
+ }
+ .completed button{
+    background-color: red;
+    border: none;
+ }
+
+ .completed button li{
+    padding-right: 70px;
+}
