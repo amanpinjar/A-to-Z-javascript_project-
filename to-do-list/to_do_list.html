@@ -25,19 +25,18 @@
     </div>
     <script>
       function addTask() {
-        var taskInput = document.getElementById("taskInput");
-        var task = taskInput.value;
+        let taskInput = document.getElementById("taskInput");
+        let task = taskInput.value;
 
-        var todoList = document.getElementById("todo-list");
-        var li = document.createElement("li");
-        li.innerHTML =
-          task + '<button  onclick="markCompleted(this)">Complete</button>';
+        let todoList = document.getElementById("todo-list");
+        let li = document.createElement("li");
+        li.innerHTML = task + '<button  onclick="markCompleted(this)">Complete</button>';
         todoList.appendChild(li);
         taskInput.value = "";
       }
 
       function markCompleted(element) {
-        var listItem = element.parentNode;
+        let listItem = element.parentNode;
         listItem.classList.toggle("completed");
       }
     </script>
