@@ -1,0 +1,13 @@
+.main{
+    border: solid;
+    background-color: rgb(8, 8, 62);
+    color: white;
+}
+.CERTIFICATE-top{
+    display: flex;
+}
+.CERTIFICATE-top img{
+    height: 2px;
+    width: 3px;
+}
+
