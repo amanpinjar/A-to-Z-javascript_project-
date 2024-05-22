@@ -1,4 +1,4 @@
-# A-to-Z-javascript_project-
+# A-to-Z-javascript-project
 JavaScript projects at various skill levels, from beginner to advanced, showcasing diverse coding proficiencies
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
