@@ -1,11 +1,27 @@
 body{
     background-color: #EED6B2;
 }
+/* main class */
 .main{
     display: flex;
     justify-content: space-between;
     margin-top: 200px;
 }
-.10th{
-    
+
+.tenth{
+    text-align: center;
+ background-color: rgb(204, 146, 30);
+ border: solid black;
 }
+
+.twelfth{
+    text-align: center;
+ background-color: rgb(204, 146, 30);
+ border: solid black;
+}
+.ug{
+    text-align: center;
+ background-color: rgb(204, 146, 30);
+ border: solid black;
+}
+/* main class */
