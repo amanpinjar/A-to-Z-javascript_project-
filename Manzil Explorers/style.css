@@ -1,0 +1,11 @@
+body{
+    background-color: #EED6B2;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.10th{
+    
+}
