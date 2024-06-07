@@ -1,27 +1,133 @@
-body{
-    background-color: #EED6B2;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d7b54d;
 }
-/* main class */
-.main{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 200px;
-}
-
-.tenth{
-    text-align: center;
- background-color: rgb(204, 146, 30);
- border: solid black;
+.option-why-us {
+  margin-top: 200px;
+  text-align: center;
 }
 
-.twelfth{
-    text-align: center;
- background-color: rgb(204, 146, 30);
- border: solid black;
+.option-why-us img {
+  max-width: 100%;
 }
-.ug{
-    text-align: center;
- background-color: rgb(204, 146, 30);
- border: solid black;
+.about-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px; /* Adjust as needed */
 }
-/* main class */
+
+.about-text > img {
+  border-radius: 30px;
+  max-width: 700px; /* Adjust image size as needed */
+  margin-right: 2%; /* Adjust spacing between image and text */
+}
+
+.text-content {
+  max-width: 500px; /* Adjust text width as needed */
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #d7b54d;
+}
+
+.header img {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.header nav {
+  flex-grow: 1;
+}
+
+.header p {
+  display: inline-block;
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.enquirer-button {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.enquirer-button img {
+  width: 20px;
+  margin-left: 10px;
+}
+
+.home-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  background-color: #d7b54d;
+}
+
+.intro-text {
+  max-width: 500px;
+}
+
+.home-image img {
+  width: 500px;
+}
+
+.test-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.test-button {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.test-button img {
+  width: 20px;
+  margin-left: 10px;
+}
+
+.container {
+  padding: 20px;
+  background-color: #d7b54d;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+#mcqForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#questionsContainer {
+  margin-top: 20px;
+  display: none;
+}
+
+#questionsContainer p {
+  font-weight: bold;
+}
+
+#resultContainer {
+  margin-top: 20px;
+  font-weight: bold;
+  color: green;
+}
