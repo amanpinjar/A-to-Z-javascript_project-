@@ -1,66 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="assets/logo.png">
-</head>
-<body>
-  <div class="header">
-    <img src="assets/logo.png" alt="Logo" />
-    <nav>
-      <p>Home</p>
-      <a href="#about-us">About Us</a> <!-- Link to the "About Us" section -->
-    </nav>
-    <button class="enquirer-button">
-      Enquire Now <img src="assets/try-test button.png" alt="Enquire" />
-    </button>
-  </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manzil Explorers</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/logo.png" />
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="content-wrap">
+        <div class="header">
+          <!-- <img src="assets/logo.png" alt="Logo" /> -->
+          <nav>
+            <p>Home</p>
+            <a href="#about-us">About Us</a>
+          </nav>
+          <button class="enquirer-button">
+            Enquire Now
+            <!--<img src="assets/try-test button.png" alt="Enquire" /> -->
+          </button>
+        </div>
 
-  <div class="home-main">
-    <div class="intro-text">
-      <h1>
-        Build a <br />
-        personality
-      </h1>
-      <p>{Mapping Out Success at Every Stage}</p>
-    </div>
-    <div class="test-section">
-      <a class="test-button" href="exam.html"
-        >Try test <img src="assets/try-test button.png" alt="Try Test"
-      /></a>
-    </div>
-    <div class="home-image">
-      <img src="assets/Home Image.png" alt="Home Image" />
-    </div>
-  </div>
+        <div class="home-main">
+          <div class="intro-text">
+            <h1>
+              Build a <br />
+              personality
+            </h1>
+            <p>{Mapping Out Success at Every Stage}</p>
+          </div>
+          <div class="test-section">
+            <a class="test-button" href="exam.html"
+              >Try test <img src="assets/try-test button.png" alt="Try Test"
+            /></a>
+          </div>
+          <div class="home-image">
+            <img src="assets/Home Image.png" alt="Home Image" />
+          </div>
+        </div>
 
-  <div class="about-us" id="about-us"> <!-- Add id attribute to the "About Us" section -->
-    <div class="option-why-us">
-      <img src="assets/why us/Why Us.png" alt="" />
-    </div>
-    <div class="about-text">
-      <img src="assets/About us.jpg" alt="" />
-      <div class="text-content">
-        <h2>About Us</h2>
-        <p>
-          Welcome to Manzil Explorers, your trusted guide in navigating academic
-          and career paths. We specialize in providing comprehensive career
-          guidance to students in 10th grade, 12th grade, and post-graduation. 
-          Our Mission 
-          To empower students with the knowledge and confidence to make
-          informed decisions about their futures. 
-          What We Do 
-          For 10th Graders: Personalized guidance to choose the right stream based on interests and
-          strengths. For 12th Graders: Tailored advice on college applications,
-          scholarships, and course selection. For Post-Graduation: Career
-          counseling, job search strategies, resume building, and interview
-          preparation.
-        </p>
+        <div class="about-us" id="about-us">
+          <div class="option-why-us">
+            <img src="assets/why us/Why Us.png" alt="" />
+          </div>
+          <div class="about-text">
+            <img src="assets/About us.jpg" alt="" />
+            <div class="text-content">
+              <h2>About Us</h2>
+              <p>
+                Welcome to Manzil Explorers, your trusted guide in navigating
+                academic and career paths. We specialize in providing
+                comprehensive career guidance to students in 10th grade, 12th
+                grade, and post-graduation. Our Mission To empower students with
+                the knowledge and confidence to make informed decisions about
+                their futures. What We Do For 10th Graders: Personalized
+                guidance to choose the right stream based on interests and
+                strengths. For 12th Graders: Tailored advice on college
+                applications, scholarships, and course selection. For
+                Post-Graduation: Career counseling, job search strategies,
+                resume building, and interview preparation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-us">
+        <img src="assets/contact.png" alt="">
+        <form id="form" class="topBefore">
+          <h1>Contact Us :</h1>
+          <input id="name" type="text" placeholder="NAME" />
+          <input id="email" type="text" placeholder="E-MAIL" />
+          <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+          <input id="submit" type="submit" value="GO!" />
+        
+        </form>
       </div>
     </div>
-  </div>
-</body>
+    <div class="footer">
+      &copy;<span id="year"> </span
+      ><span> Manzil Explorers. All rights reserved.</span>
+    </div>
+  </body>
 </html>

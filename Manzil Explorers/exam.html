@@ -20,12 +20,14 @@
       <div id="questionsContainer">
         <!-- Questions will be displayed here -->
       </div>
-      <div id="resultContainer"></div>
+      <div id="resultContainer">
+        
+      </div>
     </form>
   </div>
 
   <script>
-    // Define MCQs with options for each education level
+    // we have object store MCQ for 10th and 12th grade levels
     const mcqs = {
       "10th": [
         {
@@ -61,7 +63,7 @@
     function showQuestions() {
       const selectedOption = document.getElementById("educationLevel").value;
       const questionsContainer = document.getElementById("questionsContainer");
-      // Clear previous questions and options
+     
       questionsContainer.innerHTML = "";
       // Display questions and options if option is selected
       if (selectedOption) {
@@ -111,7 +113,7 @@
 
       // Determine result based on selected answers
       let result = "";
-      if (selectedOption === "10th") {
+      if (selectedOption == "10th") {
         // Logic to determine result for 10th grade students
         if (selectedAnswers.includes("Mathematics")) {
           result = "You should consider a career in Engineering or Medicine.";
@@ -120,7 +122,7 @@
         } else {
           result = "You should consider a career in Arts or Literature.";
         }
-      } else if (selectedOption === "12th") {
+      } else if (selectedOption == "12th") {
         // Logic to determine result for 12th grade students
         if (selectedAnswers.includes("Mathematics and Science")) {
           result = "You should consider a career in Engineering or Science.";
