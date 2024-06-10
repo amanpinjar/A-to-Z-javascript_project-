@@ -3,10 +3,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #d7b54d;
+  background-image: linear-gradient(225deg, #28d8ff, #8a6209);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: "Poppins", sans-serif;
 }
 
 .page-container {
@@ -71,7 +72,7 @@ body {
   display: flex;
   align-items: center;
   padding: 10px;
-  background-color: #ffffff;
+  background-color: hsla(221, 43%, 55%, 0.26);
 }
 
 .header img {
@@ -80,14 +81,18 @@ body {
 }
 
 .header nav {
-  flex-grow: 2;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
 }
 
-.header p {
-  display: inline-block;
+.header p, .header a, .header button {
+  font-size: 25px;
+  color: white;
   margin: 0 15px;
   cursor: pointer;
 }
+
 
 /* Home Main Section */
 .home-main {
@@ -95,7 +100,9 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 50px;
-  background-color: #d7b54d;
+  background-color: linear-gradient(225deg, #28d8ff, #8a6209);
+  
+
 }
 
 .intro-text {
@@ -103,6 +110,15 @@ body {
 }
 
 .intro-text h1 {
+
+    /* background-image: linear-gradient(225deg, #28d8ff, #8a6209);
+    filter: drop-shadow(0 20px 30px #28d8ff33);
+    /* color: black; */
+    /* -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-box-decoration-break: clone; */ 
+
+
   font-size: 100px;
 }
 
@@ -121,12 +137,13 @@ body {
 }
 
 .test-button {
-  background-color: #333;
-  color: white;
+  background-color: #24d414;
+  color: rgb(26, 25, 25);
   padding: 20px;
-  border: none;
+  border: solid black;
   border-radius: 20px;
   cursor: pointer;
+  font-size: 25px;
 }
 
 .test-button img {
@@ -137,10 +154,20 @@ body {
 /* Container Styles */
 .container {
   padding: 20px;
-  background-color: #d7b54d;
+  background-color:linear-gradient(225deg, #28d8ff, #8a6209);
+}
+#educationLevel{
+  border: solid black;
+  border-radius:310px;
+  height: 60px;
+  width: 500px;
+  font-size: 20px;
+  text-align: center;
 }
 
 .container h1 {
+  background-color: #e3e9e32d;
+  font-size: 90px;
   text-align: center;
 }
 .contact-us{
@@ -323,7 +350,7 @@ textarea:hover {
 /* Footer Section */
 .footer {
   padding: 2rem;
-  background: rgb(187, 184, 25);
+  background: linear-gradient(225deg, #28d8ff, #8a6209);;
   color: rgb(4, 2, 2);
   font-weight: 500;
   display: flex;
