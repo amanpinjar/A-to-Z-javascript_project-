@@ -1,0 +1,14 @@
+body{
+    background-color: gray;
+}
+
+.main-box{
+    border: solid black;
+    width: 700px;
+    height: 500px;
+    padding: 0px, 60px, 0px, 40px;
+    margin: auto;
+}
+.header h1{
+    text-align: center;
+}
